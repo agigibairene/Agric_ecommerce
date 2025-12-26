@@ -1,11 +1,12 @@
+import NavBar from './components/NavBar';
 
-function App() {
+export default function App() {
 
   return (
-    <>
-      <h1 className='text-blue-500 font-bold'>SEEDLINQ ECOMMERCE</h1>
-    </>
+      <>
+        <NavBar />
+      </>
+    
   )
 }
 
-export default App
